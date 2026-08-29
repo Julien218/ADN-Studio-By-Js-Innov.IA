@@ -27,6 +27,7 @@ adn-studio-mvp/
 ├── services/        # Helper modules for API calls
 ├── theme.js         # Design constants (colours, spacing, etc.)
 ├── package.json     # Project metadata and dependencies
+├── brands/          # Sources de vérité ADN pour les marques / produits
 └── README.md        # This file
 ```
 
@@ -36,6 +37,19 @@ adn-studio-mvp/
 - **components/** – Reusable React components used across pages.  You can expand this directory as you build out more complex UIs.
 - **services/** – Modules that encapsulate external API calls.  The `aiService.js` file exports a `generateDesign` function that posts a prompt and assets to your own API.  Modify this module to point at your AI infrastructure.
 - **theme.js** – Centralised theme definitions such as colours and border radii.  Update these values to customise the look and feel of your app.
+- **brands/** – Brand DNA registry. Human and machine-readable rules for products and sub-brands.
+
+## Brand DNA Registry
+
+### SIGNELYA — by JS-Innov.IA®
+
+Source officielle : [`brands/signelya/README.md`](brands/signelya/README.md)
+
+- Bible complète : [`brands/signelya/BRAND_BIBLE.md`](brands/signelya/BRAND_BIBLE.md)
+- Manifest IA : [`brands/signelya/brand-manifest.json`](brands/signelya/brand-manifest.json)
+- Design tokens : [`brands/signelya/design-tokens.json`](brands/signelya/design-tokens.json)
+- Contrat de génération IA : [`brands/signelya/PROMPT_CONTRACT.md`](brands/signelya/PROMPT_CONTRACT.md)
+- Assets vectoriels : [`brands/signelya/assets/`](brands/signelya/assets/)
 
 ## Notes
 
