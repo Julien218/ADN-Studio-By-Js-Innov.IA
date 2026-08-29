@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.0",
+  "brand": {
+    "name": "SIGNELYA",
+    "type": "product-sub-brand",
+    "parentBrand": "JS-Innov.IA®",
+    "version": "1.0.0",
+    "status": "master",
+    "tagline": "Vos écrans prennent vie.",
+    "positioning": "Marque technologique premium dédiée à l'affichage numérique et à l'animation d'écrans.",
+    "personality": [
+      "moderne",
+      "précise",
+      "fluide",
+      "premium",
+      "accessible",
+      "dynamique",
+      "professionnelle"
+    ]
+  },
+  "logo": {
+    "coreConcept": ["S-ruban", "cadre-écran", "pixels"],
+    "symbolMaster": "assets/signelya-symbol-master.svg",
+    "wordmarkMaster": "assets/signelya-lockup-horizontal.svg",
+    "geometryRules": {
+      "dominantShape": "S fluide et continu",
+      "screenFrame": "secondaire, coins légèrement arrondis",
+      "pixels": "entrée du mouvement côté gauche",
+      "doNotDistort": true,
+      "doNotRotate": true,
+      "doNotReplaceSymbol": true
+    }
+  },
+  "colors": {
+    "night": "#03050A",
+    "carbon": "#090D16",
+    "white": "#F7F9FF",
+    "cyan": "#00D9FF",
+    "electricBlue": "#1778FF",
+    "violet": "#754BFF",
+    "magenta": "#F100FF",
+    "muted": "#9AA4B5",
+    "brandGradient": "linear-gradient(125deg, #00D9FF 0%, #1778FF 38%, #754BFF 68%, #F100FF 100%)"
+  },
+  "typography": {
+    "display": "Space Grotesk",
+    "ui": "Inter",
+    "headingWeights": [600, 700],
+    "bodyWeights": [400, 500]
+  },
+  "visualModes": {
+    "productUI": {
+      "style": "flat-to-semi-flat",
+      "glow": "subtle",
+      "threeD": false
+    },
+    "heroCampaign": {
+      "style": "premium-light-3d",
+      "glow": "controlled",
+      "threeD": true,
+      "geometryMustRemainExact": true
+    }
+  },
+  "motion": {
+    "signatureSequence": [
+      "pixels appear",
+      "pixels converge toward screen",
+      "light draws S",
+      "S gains controlled volume/light",
+      "SIGNELYA appears",
+      "tagline appears last"
+    ],
+    "microDurationMs": [160, 280],
+    "logoRevealDurationMs": [800, 1600],
+    "forbidden": [
+      "strobe",
+      "violent white flash",
+      "permanent glitch",
+      "full 3D logo spin",
+      "logo morph distortion"
+    ]
+  },
+  "copy": {
+    "exactBrandName": "SIGNELYA",
+    "exactTagline": "Vos écrans prennent vie.",
+    "preferredVerbs": ["diffuser", "piloter", "programmer", "afficher", "animer", "connecter"],
+    "forbiddenClaims": ["numéro 1", "meilleur du marché", "révolutionnaire"]
+  },
+  "coBranding": {
+    "parent": "JS-Innov.IA®",
+    "officialAssetRepository": "Julien218/jsinnovia-assets-",
+    "officialPrimaryAsset": "logo-complet-800.png",
+    "rule": "Never redraw, regenerate, reinterpret or approximate the JS-Innov.IA® logo.",
+    "relativeWidthPercentOfSignelyaWordmark": [18, 30]
+  },
+  "aiGeneration": {
+    "contract": "PROMPT_CONTRACT.md",
+    "fallbackRule": "If exact logo/text cannot be guaranteed, generate scene without logo/text and apply official assets in post-production.",
+    "mustPreserve": [
+      "brand name spelling",
+      "logo geometry",
+      "brand gradient",
+      "tagline wording",
+      "official JS-Innov.IA® asset"
+    ]
+  },
+  "qualityGate": {
+    "required": [
+      "exact SIGNELYA spelling",
+      "correct S-ribbon geometry",
+      "screen frame present when full symbol is used",
+      "cyan-blue-violet-magenta palette",
+      "official JS-Innov.IA® asset only",
+      "readability at target size/distance",
+      "premium non-gaming look"
+    ]
+  }
+}
