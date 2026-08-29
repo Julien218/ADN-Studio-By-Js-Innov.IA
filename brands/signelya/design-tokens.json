@@ -1,0 +1,50 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "signelya": {
+    "color": {
+      "night": { "$type": "color", "$value": "#03050A" },
+      "carbon": { "$type": "color", "$value": "#090D16" },
+      "white": { "$type": "color", "$value": "#F7F9FF" },
+      "muted": { "$type": "color", "$value": "#9AA4B5" },
+      "cyan": { "$type": "color", "$value": "#00D9FF" },
+      "blue": { "$type": "color", "$value": "#1778FF" },
+      "violet": { "$type": "color", "$value": "#754BFF" },
+      "magenta": { "$type": "color", "$value": "#F100FF" }
+    },
+    "gradient": {
+      "brand": {
+        "$type": "gradient",
+        "$value": [
+          { "color": "#00D9FF", "position": 0 },
+          { "color": "#1778FF", "position": 0.38 },
+          { "color": "#754BFF", "position": 0.68 },
+          { "color": "#F100FF", "position": 1 }
+        ],
+        "$extensions": { "angle": "125deg" }
+      }
+    },
+    "font": {
+      "display": { "$type": "fontFamily", "$value": "Space Grotesk" },
+      "ui": { "$type": "fontFamily", "$value": "Inter" }
+    },
+    "radius": {
+      "sm": { "$type": "dimension", "$value": "8px" },
+      "md": { "$type": "dimension", "$value": "16px" },
+      "lg": { "$type": "dimension", "$value": "24px" }
+    },
+    "space": {
+      "1": { "$type": "dimension", "$value": "8px" },
+      "2": { "$type": "dimension", "$value": "16px" },
+      "3": { "$type": "dimension", "$value": "24px" },
+      "4": { "$type": "dimension", "$value": "32px" },
+      "6": { "$type": "dimension", "$value": "48px" },
+      "8": { "$type": "dimension", "$value": "64px" }
+    },
+    "motion": {
+      "microFast": { "$type": "duration", "$value": "160ms" },
+      "microStandard": { "$type": "duration", "$value": "240ms" },
+      "logoRevealMin": { "$type": "duration", "$value": "800ms" },
+      "logoRevealMax": { "$type": "duration", "$value": "1600ms" }
+    }
+  }
+}
