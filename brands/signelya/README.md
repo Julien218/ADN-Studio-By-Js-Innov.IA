@@ -1,8 +1,8 @@
 # SIGNELYA — Source officielle de l'ADN de marque
 
-Version ADN : **1.0.0**  
+Version ADN : **1.1.0**  
 Statut : **Master / source de vérité**  
-Date : **2026-08-30**  
+Date de mise à jour : **2026-09-02**  
 Marque mère : **JS-Innov.IA®**
 
 > **Promesse officielle :** « Vos écrans prennent vie. »
@@ -15,9 +15,23 @@ Ce dossier est la référence à consulter avant toute création liée à SIGNEL
 2. `brand-manifest.json` — règles machine-readable pour agents IA et automatisations.
 3. `design-tokens.json` — couleurs, gradients, typo, espacements et motion.
 4. `PROMPT_CONTRACT.md` — contrat de génération pour visuels et vidéos IA.
-5. `assets/signelya-symbol-master.svg` — symbole vectoriel de référence.
-6. `assets/signelya-lockup-horizontal.svg` — wordmark/lockup SIGNELYA de référence.
-7. `assets/JSINNOVIA_REFERENCE.md` — référence impérative vers les assets officiels JS-Innov.IA®.
+5. `assets/mobile/signelya-symbol-approved-512.png` — **symbole SIGNELYA validé**, fond extérieur transparent, référence visuelle officielle pour icône, favicon et déclinaisons.
+6. `assets/mobile/android-chrome-512.png` — version application/PWA validée sur fond sombre.
+7. `assets/mobile/apple-touch-icon-180.png`, `android-chrome-192.png`, `favicon-32.png`, `favicon-16.png` — exports techniques officiels pour téléphones et navigateurs.
+8. `assets/JSINNOVIA_REFERENCE.md` — référence impérative vers les assets officiels JS-Innov.IA®.
+
+## Règle absolue — symbole SIGNELYA
+
+Le symbole validé doit conserver soigneusement :
+
+- la géométrie du **S-ruban** ;
+- les nuances cyan, bleu, violet et magenta ;
+- le cadre d'écran derrière le S ;
+- les pixels numériques à gauche ;
+- le petit effet lumineux à la pointe basse / queue du S ;
+- les proportions et la lisibilité à petite taille.
+
+Les anciens prototypes `assets/signelya-symbol-master.svg` et `assets/signelya-lockup-horizontal.svg` ont été **retirés** et ne doivent plus être utilisés comme référence.
 
 ## Règle absolue de co-branding
 
