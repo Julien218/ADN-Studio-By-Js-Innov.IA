@@ -4,7 +4,7 @@
     "name": "SIGNELYA",
     "type": "product-sub-brand",
     "parentBrand": "JS-Innov.IA®",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "master",
     "tagline": "Vos écrans prennent vie.",
     "positioning": "Marque technologique premium dédiée à l'affichage numérique et à l'animation d'écrans.",
@@ -19,16 +19,30 @@
     ]
   },
   "logo": {
-    "coreConcept": ["S-ruban", "cadre-écran", "pixels"],
-    "symbolMaster": "assets/signelya-symbol-master.svg",
-    "wordmarkMaster": "assets/signelya-lockup-horizontal.svg",
+    "coreConcept": ["S-ruban", "cadre-écran", "pixels", "lueur discrète à la queue du S"],
+    "symbolMaster": "assets/mobile/signelya-symbol-approved-512.png",
+    "appIconMaster": "assets/mobile/android-chrome-512.png",
+    "wordmarkMaster": null,
+    "mobileExports": {
+      "appleTouchIcon": "assets/mobile/apple-touch-icon-180.png",
+      "android192": "assets/mobile/android-chrome-192.png",
+      "favicon32": "assets/mobile/favicon-32.png",
+      "favicon16": "assets/mobile/favicon-16.png"
+    },
+    "legacyAssetsRemoved": [
+      "assets/signelya-symbol-master.svg",
+      "assets/signelya-lockup-horizontal.svg"
+    ],
     "geometryRules": {
-      "dominantShape": "S fluide et continu",
-      "screenFrame": "secondaire, coins légèrement arrondis",
-      "pixels": "entrée du mouvement côté gauche",
+      "dominantShape": "S-ruban fluide, volumétrique et continu, conforme au master PNG validé",
+      "screenFrame": "cadre-écran derrière le S, fin et lumineux",
+      "pixels": "pixels numériques dispersés sur la gauche",
+      "tailLight": "petit effet lumineux cyan contrôlé à la pointe basse / queue du S",
+      "transparentExterior": true,
       "doNotDistort": true,
       "doNotRotate": true,
-      "doNotReplaceSymbol": true
+      "doNotReplaceSymbol": true,
+      "doNotRedrawFromMemory": true
     }
   },
   "colors": {
@@ -98,7 +112,10 @@
     "fallbackRule": "If exact logo/text cannot be guaranteed, generate scene without logo/text and apply official assets in post-production.",
     "mustPreserve": [
       "brand name spelling",
-      "logo geometry",
+      "approved S-ribbon geometry",
+      "screen frame",
+      "left-side pixels",
+      "subtle lower-tail light effect",
       "brand gradient",
       "tagline wording",
       "official JS-Innov.IA® asset"
@@ -106,9 +123,11 @@
   },
   "qualityGate": {
     "required": [
-      "exact SIGNELYA spelling",
-      "correct S-ribbon geometry",
+      "exact SIGNELYA spelling when wordmark is used",
+      "approved S-ribbon geometry",
       "screen frame present when full symbol is used",
+      "pixels present on the left when full symbol is used",
+      "subtle cyan light at the lower S tail",
       "cyan-blue-violet-magenta palette",
       "official JS-Innov.IA® asset only",
       "readability at target size/distance",
